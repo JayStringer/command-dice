@@ -7,7 +7,7 @@ import sys
 
 
 def roll(inp):
-    """Check if a given input matches pattern dice roll pattern"""
+    """Roll given number of dice of given value"""
     if re.match(pattern=r"[1-9]\d*[d][1-9]\d*", string=inp):
         quantity, value = inp.split("d")  # Will be formatted as `QUANTITY`d`VALUE`
 
@@ -36,6 +36,7 @@ def roll(inp):
         print(f"{inp} does not match expected formatting, "
               "please use QUANTITYdVALUE format. "
               "For example 1d20 to roll a single twenty sided dice")
+
 
 if __name__ == "__main__":
     try:
