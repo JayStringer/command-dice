@@ -1,4 +1,4 @@
-# command-dice
+# Command Dice
 Simple little command line tool to roll dice.
 
 ## Requirements
