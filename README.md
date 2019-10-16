@@ -11,9 +11,9 @@ pip install .
 ```
 
 ## Usage
-Once installed, from the command line you can roll x number of dice of value y with the syntax:
+Once installed, from the command line you can roll `X` number of dice of value `Y` with the syntax:
 ```
-roll xdy
+roll XdY
 ```
 
 For example:
