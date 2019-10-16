@@ -6,8 +6,14 @@ import re
 import sys
 
 
-def roll(inp):
+def roll(inp=None):
     """Roll given number of dice of given value"""
+    try:
+        inp = inp if inp is not None else sys.argv[1]
+    except IndexError:
+        print("Please provide how many dice of what value you'd like to roll... e.g 1d20")
+        return
+
     if re.match(pattern=r"[1-9]\d*[d][1-9]\d*", string=inp):
         quantity, value = inp.split("d")  # Will be formatted as `QUANTITY`d`VALUE`
 
@@ -39,7 +45,4 @@ def roll(inp):
 
 
 if __name__ == "__main__":
-    try:
-        roll(sys.argv[1])
-    except IndexError:
-        print("Please provide how many dice of what value you'd like to roll... e.g 1d20")
+    roll()

@@ -3,3 +3,9 @@
 
 # Python gubbins
 *.pyc
+
+# .egg-info
+**/*.egg-info
+
+# Virtualenv
+**/*env
