@@ -5,7 +5,7 @@ Simple little command line tool to roll dice.
 Python >= 3.6
 
 ## Installation
-Either to your system install or in a virtualenv.
+To install to either to your system python or in a virtualenv, from the root directory type...
 ```
 pip install .
 ```
