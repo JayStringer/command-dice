@@ -9,3 +9,6 @@
 
 # Virtualenv
 **/*env
+
+# Playground
+**/sandbox.py

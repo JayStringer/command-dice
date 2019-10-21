@@ -3,7 +3,7 @@
 # Built In
 from setuptools import setup
 
-entry_points = {"console_scripts": ["roll=command_dice:roll"]}
+entry_points = {"console_scripts": ["roll=command_dice:roll_dice"]}
 
 setup(name="command_dice",
       version="0.0.1",
