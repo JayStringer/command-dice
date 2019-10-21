@@ -22,5 +22,11 @@ roll 1d20
 ```
 Will roll one twenty sided dice and print the result of the roll to the terminal.
 
+You can optionally add a modifier to the roll:
+```
+roll 4d6+3
+```
+Only addition or subtraction modifiers are currently supported.
+
 ## Notes
 There isn't a limit to how many dice you can roll, or even the value of the dice that you want to roll... have fun!
